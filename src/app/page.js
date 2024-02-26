@@ -11,12 +11,12 @@ export default function Home() {
         className="lg:w-4/5 h-1/2 lg:px-0 flex flex-col justify-center lg:items-center z-40
         sm:w-full sm:px-4 sm:items-start"
       >
-        <div className="w-fit h-fit mb-4">
+        <div className="w-fit h-fit mb-2">
           <h1
-            className="font-sans lg:text-8xl font-extrabold text-blue-50
+            className="font-poppins lg:text-8xl font-extrabold text-blue-50
             bg-clip-text text-transparent bg-gradient-to-b from-neutral-200
-             to-neutral-500 sm:text-6xl"
-            // id="homeHead"
+             to-neutral-500 sm:text-6xl leading-loose"
+            id="homeHead"
           >
             Rasayan Chakraborty
           </h1>

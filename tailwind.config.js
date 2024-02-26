@@ -44,6 +44,9 @@ module.exports = {
           },
         },
       },
+      fontFamily: {
+        poppins: ["Poppins"],
+      },
     },
   },
   corePlugins: {

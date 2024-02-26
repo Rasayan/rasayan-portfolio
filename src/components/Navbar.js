@@ -29,13 +29,6 @@ export default function Navbar() {
         >
           <li
             className="decoration-none hover:underline hover:decoration-blue-500 
-          hover:decoration-4 ease-in cursor-pointer"
-          >
-            <Link href="/">home</Link>
-          </li>
-
-          <li
-            className="decoration-none hover:underline hover:decoration-blue-500 
           hover:decoration-4 ease-in"
           >
             <Link href="/about">about</Link>

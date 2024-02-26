@@ -18,7 +18,9 @@ export default function About() {
           justify-center items-start lg:pl-20 sm:pl-0 relative z-20"
         >
           <h2
-            className="lg:text-2xl sm:text-4xl md:text-7xl font-bold dark:text-white
+            className="font-poppins lg:text-6xl font-extrabold text-blue-50
+            bg-clip-text text-transparent bg-gradient-to-b from-neutral-200
+             to-neutral-500 sm:text-4xl
         "
           >
             About Me_

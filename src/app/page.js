@@ -15,7 +15,7 @@ export default function Home() {
           <h1
             className="font-poppins lg:text-8xl font-extrabold text-blue-50
             bg-clip-text text-transparent bg-gradient-to-b from-neutral-200
-             to-neutral-500 sm:text-6xl leading-loose"
+             to-neutral-500 sm:text-2xl leading-loose"
             id="homeHead"
           >
             Rasayan Chakraborty
@@ -28,13 +28,13 @@ export default function Home() {
           <h1
             className="text-zinc-200 lg:text-2xl font-extrabold 
             font-sans tracking-wide flex items-center
-            justify-start lg:w-1/8 sm:w-1/6 sm:text-lg"
+            justify-start lg:w-1/8 sm:w-1/6 sm:text-base"
           >
             I am &nbsp;
           </h1>
           <span
             className="static-text text-white lg:text-3xl font-extrabold 
-            font-sans tracking-wide sm:text-xl"
+            font-sans tracking-wide sm:text-lg"
             id="hi"
           ></span>
         </div>

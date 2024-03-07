@@ -3,8 +3,6 @@
 import Link from "next/link";
 
 import { FaGithub } from "react-icons/fa";
-import { FiSun } from "react-icons/fi";
-import { changeTheme } from "@/utils/helper";
 
 export default function Navbar() {
   return (
@@ -43,12 +41,9 @@ export default function Navbar() {
         </ul>
 
         <div className="flex justify-center items-center  gap-4 text-white">
-          <Link href="/github">
+          <Link href="https://github.com/Rasayan/rasayan-portfolio">
             <FaGithub />
           </Link>
-          <button className="w-1/2 h-1/2" onClick={() => changeTheme("dark")}>
-            <FiSun />
-          </button>
         </div>
       </div>
     </nav>

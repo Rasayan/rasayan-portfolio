@@ -52,7 +52,7 @@ export default function Contact() {
                 <IoMailUnreadSharp />
               </div>
 
-              <div className="lg:text-xl text-white fonr-bold sm:text-lg">
+              <div className="lg:text-xl text-white fonr-bold md:text-lg sm:text-base">
                 <p> rascheez2004@gmail.com</p>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function Contact() {
         </div>
 
         <div className="w-full h-fit flex flex-row justify-center items-center gap-4">
-          <Link href="#" className="inline">
+          <Link href="https://github.com/Rasayan" className="inline">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -82,14 +82,14 @@ export default function Contact() {
             </svg>
           </Link>
 
-          <Link href="#" className="inline">
+          <Link href="https://www.linkedin.com/in/rasayan-chakraborty-48864b249/" className="inline">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-linkedin text-zinc-300 inline-block text-white"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
               fill="none"
               strokeLinecap="round"
